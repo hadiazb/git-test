@@ -1,0 +1,29 @@
+.header {
+  background-color: rgb(35, 78, 78);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  z-index: 100;
+}
+
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 3rem;
+  padding: 0 1rem;
+}
+
+.header__container__logo {
+  width: 80px;
+  height: 50px;
+}
+
+.header__container__nav .items{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 250px;
+}

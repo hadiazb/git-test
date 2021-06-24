@@ -1,0 +1,21 @@
+.footer {
+  background-color: rgb(9, 22, 22);
+}
+
+.footer__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  margin: 0 3rem;
+  padding: 0 1rem;
+}
+
+.footer__container__nav .items{
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 250px;
+}
